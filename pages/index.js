@@ -1,8 +1,9 @@
+import Header from "../components/Navbar/Header";
 
 export default function Home() {
   return (
-    <div >
-     <h3>This Naimur</h3>
+    <div className="container" >
+     <Header></Header>
     </div>
   )
 }
